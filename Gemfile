@@ -11,11 +11,17 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
+gem 'jwt'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+   gem 'bcrypt', '~> 3.1.7'
 
+gem 'active_model_serializers', '~> 0.10.0'
+
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'faker'
 
 
 # Use ActiveStorage variant
